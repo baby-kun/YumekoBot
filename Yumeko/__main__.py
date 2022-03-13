@@ -72,14 +72,14 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-YUMEKO_IMG = "https://telegra.ph/file/e0040466048302df1a451.mp4"
+YUMEKO_IMG = "https://telegra.ph/file/5bf9210d699d785b057f9.jpg"
 
 PM_START_TEXT = """
-**Hey I am Yumeko** [ㅤ](https://telegra.ph/file/6643b0fb6792b2e5e844a.mp4)
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-**×I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-☉ **×Click the button below for more.**
+**Free de la hoya here** [ㅤ](https://telegra.ph/file/5bf9210d699d785b057f9.jpg)
+️──────────────────────
+**× I'm a Beyblade themed robot powered by @theacademy_official!**
+️──────────────────────
+☉ **× hit /help to see my abilities.**
 """
 
 buttons = [
@@ -91,11 +91,6 @@ buttons = [
         InlineKeyboardButton(
             text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/"
         ),
-    ],
-    [
-        
-        InlineKeyboardButton(
-            text="❓ Help&Commands", callback_data="help_back"),
     ],
 ]
 
