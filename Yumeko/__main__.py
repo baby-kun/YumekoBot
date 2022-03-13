@@ -92,6 +92,11 @@ buttons = [
             text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/"
         ),
     ],
+    [
+
+        InlineKeyboardButton(
+            text="❓ Help&Commands", callback_data="help_back"),
+    ],
 ]
 
 
